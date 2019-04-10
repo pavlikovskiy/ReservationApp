@@ -1,0 +1,44 @@
+{
+  "name": "ReservationApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "format": "prettier app/**/*.js --write",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest --config jest.config.json"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "react": "16.8.3",
+    "react-apollo": "^2.5.4",
+    "react-native": "0.59.4",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-to-json": "^3.3.5",
+    "flow-bin": "^0.96.0",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "prettier": "^1.16.4",
+    "prettier-cli": "^0.1.0",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "16.8.3",
+    "waait": "^1.0.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

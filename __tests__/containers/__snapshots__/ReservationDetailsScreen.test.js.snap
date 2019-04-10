@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReservationDetailsScreen should render loading message  1`] = `
+<Text>
+  Reservation details is loading...
+</Text>
+`;
+
+exports[`ReservationDetailsScreen should render with data from graph mock 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "backgroundColor": "#FAFAFA",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "flex-start",
+      "paddingBottom": 20,
+      "paddingLeft": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignItems": "center",
+        "color": "#808080",
+        "flex": 1,
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "justifyContent": "center",
+        "paddingBottom": 20,
+        "paddingHorizontal": 10,
+        "paddingTop": 10,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    Jeff McCall
+     at 
+    Hilton
+  </Text>
+  <Text
+    style={Object {}}
+  >
+    Name: 
+    Jeff McCall
+  </Text>
+  <Text
+    style={Object {}}
+  >
+    Hotel Name: 
+    Hilton
+  </Text>
+  <Text
+    style={Object {}}
+  >
+    From: 
+    9/9/2019
+  </Text>
+  <Text
+    style={Object {}}
+  >
+    To: 
+    9/9/2020
+  </Text>
+</View>
+`;
